@@ -1,11 +1,10 @@
-import 'dart:ffi';
 import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class PlaceLocation {
-  final Double latitude;
-  final Double longitude;
+  final double latitude;
+  final double longitude;
   final String address;
 
   PlaceLocation({
